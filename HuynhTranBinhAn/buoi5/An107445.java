@@ -4,12 +4,9 @@ public class An107445 {
     public static int timGiaTriLonNhat(int a, int b) {
         return a > b ? a : b;
     }
-
     public static int timGiaTriNhoNhat(int a, int b) {
         return a < b ? a : b;
     }
-
-    // Sử dụng phương pháp so sánh
     public static int timGiaTriLonNhatSoSanh(int a, int b) {
         int max = a;
         if (max < b)
