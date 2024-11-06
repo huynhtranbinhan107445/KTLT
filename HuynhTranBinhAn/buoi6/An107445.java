@@ -1,7 +1,5 @@
 package buoi6;
-
 import java.util.Scanner;
-
 public class An107445 {
     public static void thongTin1_1()
     {
@@ -16,7 +14,6 @@ public class An107445 {
         System.out.println("Tuổi: " + Integer.parseInt(tuoi));
         System.out.println("-----HẾT-----");
     }
-
     public static void thonhTin1_2() {
         String hoTen = "Huỳnh Trần Bình An";
         String ngaySinh = "24/12/2002";
