@@ -1,7 +1,5 @@
 package buoi7;
-
 import java.util.Scanner;
-
 public class An107445 {
     public static void hienThiGiaTri(int n) {
         System.out.print("Danh sách các phần tử là: ");
@@ -27,7 +25,6 @@ public class An107445 {
                     System.out.print("\nĐiểm không hợp lệ, giá trị phải nằm trong khoảng từ 0-10 !!!");
                 }
             } catch (Exception ex) {
-                // TODO: handle exception
                 System.out.println("Dữ liệu không hợp lệ, điểm phải nằm trong khoảng từ 0-10 !!!");
             }
         }
